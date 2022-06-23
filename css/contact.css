@@ -1,0 +1,17 @@
+.box{
+    border-radius: 5px;
+    background-image: url(../assets/man.jpg);
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 5px #000;
+    text-align: center;
+    color: black;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+}
+.box:hover{
+    transform: scale(1.1);
+}
+    
+
