@@ -1,0 +1,136 @@
+#page_ar {
+	background-color: #FFFFFF;
+}
+#contour {
+	width: 960px;
+}
+
+#contour_droit {
+	background-repeat: repeat-y;
+	background-position: 100% 10px;
+}
+#tete {
+}
+#tete_gauche {
+
+	
+}
+#tete_droite {
+
+}
+td.mill_left {
+	background: url(../images/menu_gauche.jpg) no-repeat;
+	height: 25px;
+	width: 13px;
+}
+td.mill_right {
+	background: url(../images/menu_droit.jpg) no-repeat;
+	height: 25px;
+	width: 13px;
+}
+td.mill_middle {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	/*overflow: hidden;*/
+}
+
+#menu li.menuArea{
+	float: left;
+	background: url(../images/menu_sep.jpg) right no-repeat;
+	margin: 0;
+	padding: 0;
+}
+#menu li.subItems{
+	float: left;
+	background: url(../images/menu_sep.jpg) right no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+#banniere{
+	
+	background: url(../images/bgg.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+#pied {
+	margin-top: 10px;
+	background-image: url(../images/back-down.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+#pied_gauche {
+	background-image: url(../images/pied_gauche.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 7px;
+	border-radius:10px;
+}
+#pied_droit {
+
+}
+#copyright {
+	text-align: center;
+	padding: 0px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#extension1 {
+
+}
+#extension1_g {
+	background-image: url(../images/milieu_h_g.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	
+}
+#extension1_d{
+	background-image: url(../images/milieu_h_d.jpg);
+	background-repeat: no-repeat;
+	background-position: 100% 3px;
+}
+#bar_sep {
+	background-image: url(../images/bare_sep.jpg);
+	height: 24px;
+	background-repeat: repeat-x;
+	overflow: hidden;
+	width: 960px;
+}
+#milieu_g , #milieu_bas_gauche{
+	position: relative;
+	background-image: url(../images/exten2_g.jpg);
+	background-repeat: repeat-y;
+	background-position: 0 0;
+}
+#milieu_d ,#milieu_bas_droit{
+	background: url(../images/exten2_d.jpg) 100% 0 repeat-y;
+	overflow: hidden;
+}
+
+#milieu_bass{
+	height: auto;
+	width: auto;
+	/*background-color:#000000;*/
+}
+/* fin unique pour tous*/
+/*#################################################################################################################*/
+#tete {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#extension1 {
+	background-image: url(../images/milieu_g_m.jpg);
+	background-repeat: repeat-x;
+	background-position: 0px 3px;
+}

@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/position.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Position</title>
+</head>
+<body>
+    <div class="parent">
+        Parent
+        <div class="box1">One</div>
+        <div  class="box2">Two</div>
+        <div  class="box3">Three</div>
+    </div>
+    <div id="subscribe">
+        <a id="close" onclick="close()" >X</a>
+        <h3>
+            MAke Sure You Subscribe
+        </h3>
+    </div>
+    <div class="display">
+        <div class="b1">Hi</div>
+        <div>My NAme</div>
+        <div class="b3">Is Brian</div>
+    </div> 
+</body>
+</html>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    var close = document.getElementById("close");
+    close.addEventListener("click", function() {
+    document.getElementById('subscribe').style.display = "none";
+  });
+</script>

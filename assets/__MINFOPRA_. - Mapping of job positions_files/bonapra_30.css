@@ -1,0 +1,284 @@
+﻿@charset "utf-8";
+.in{
+	background-image:url('../image_site/back_home.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	min-height:500px;
+	
+}
+#tree_orga, .tree_orga{
+	width:930px; 
+	min-height:500px;
+	background-color:#f5f5f5;
+	border :1px solid Silver; 
+	overflow:auto;
+	text-align:left;
+}
+
+
+#tree_orgaP{
+	width:460px; 
+	height:350px;
+	background-color:#f5f5f5;
+	border :1px solid Silver; 
+	overflow:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:left;
+}
+.in #grille{
+	min-height:500px;
+	width:100%;
+}
+.enroll{
+	/*background-image:url('../image_site/minfopra2.gif');*/
+	/*filter:alpha(opacity=5);
+	opacity: 0.05;
+	-moz-opacity:0.05;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 80% 100%;
+	-moz-background-size: 100% 100%;*/
+	/*background-color:#ccc;
+	background-image: url(../plates/images/bare_sep4.jpg);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;*/
+}
+.titre i{
+	font-size:9px;
+}
+#ccc{
+	margin-bottom:50px;
+	font-size:13px;
+}
+#gd_cadre2 {
+	padding:10px;
+	font-size:13px;
+	
+}
+#decon,#user{
+	float:right;
+	padding-right:5px;
+	padding-top:5px;
+	font-size:13px;
+}
+#gd_cadre2 a,#decon a{
+	color:#930 !important;
+	text-decoration:none;
+	font-size:12px;
+}
+.anti-spam{
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	-o-border-radius:5px;
+	border:#999999 thin solid;
+	background-color:#FFF;
+	float:left;
+	padding:5px;
+	text-align:center;
+	margin-bottom:10px;
+}
+fieldset {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	-o-border-radius:5px;
+	border:#999999 thin solid;
+	background-color:#eaeaea;
+	/*filter:alpha(opacity=5);
+	opacity: 0.90;
+	-moz-opacity:0.05;*/
+}
+fieldset .no{
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	-khtml-border-radius:0px;
+	border-radius:0px;
+	-o-border-radius:0px;
+	border:0px;
+	background-color:!transparent;
+	/*filter:alpha(opacity=5);
+	opacity: 0.90;
+	-moz-opacity:0.05;*/
+}
+fieldset legend{
+	font-style:italic;
+	font-weight:bold;
+	border:#999999 thin solid;
+	padding:5px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	border-radius:3px;
+	-o-border-radius:3px;
+	background-color:#EFEFEF;
+	
+}
+span span{
+	font-style:italic;
+	font-size:10px;
+}
+/*
+fieldset fieldset legend{
+	font-style:italic;
+	font-size:12px;
+	font-weight:bold;
+	border:#efefef thin solid;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	border-radius:3px;
+	-o-border-radius:3px;
+	background-color:#EFEFEF;
+	
+}*/
+b.oblig{color:red; font-size:12px;font-weight:bolder;}
+td.etat{color:red; font-size:12px;font-weight:bolder; font-style:italic;}
+td.etatt{ font-size:12px; font-style:italic;text-align:center}
+td.stab{ font-size:11px; font-weight:bolder;text-align:center}
+
+fieldset{
+	text-align:left;
+	font-size:13px;
+	margin-bottom:10px;
+}
+#errShow,.errShow{
+	color:#F00;
+	font-size:11px;
+	font-weight:bold;
+	text-align:center;
+}
+
+#errShowc,.errShowc{
+	color:#060;
+	font-size:11px;
+	font-weight:bold;
+	text-align:center;
+}
+.titre,.lib{
+	color:#000;
+	font-weight:normal;
+	font-size:12px;
+	text-shadow: #fff 0px 2px 0px;
+	font-weight:bold;
+	text-align:left;
+}
+.info{
+	font-size:12px;
+	text-align:left;
+}
+td input .input_text{
+	width:200px;
+}
+input.toUp{
+	text-transform:uppercase;
+}
+/*i {
+ font-size:12px;
+}*/
+#but{
+	font-size:14px;
+}
+.butc{
+	text-align:center;
+}
+.left{
+	float:left;
+	font-size:10px;
+}
+.right{
+	float:right;
+	font-size:10px;
+}
+/*#cartopresent1{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	background-image: url(../plates/images/_bgbg3.png);
+	background-repeat: repeat;
+}*/
+.acc{
+	background-image: url(../images/bare_sep4.jpg);
+	background-repeat: repeat-y;
+	background-position: 0 0;
+}
+/*.ac,.accueil{
+	background-image: url(../plates/images/_bgbg3.png);
+	background-repeat: repeat;
+	background-position: 0px 0px;
+}*/
+#gd_cadre2 #cartopresent table a{
+	background: url(../images/__puced.png) 0 3px no-repeat;
+	padding-left:15px;
+	font-weight:bold;
+}
+#cartopresentac{
+	text-align:justify;
+	font-size:12px;
+	padding-top: 0px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	font-style: normal;
+	line-height: normal;
+}
+#toolBarre{
+	width:956px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1px;
+	text-align: center;
+	padding: 0px;
+	float: none;
+	margin-bottom: 0px;
+ /*height:20px;*/
+}
+#cartopresent{
+	text-align:justify;
+	padding:40px;
+	font-size:12px;
+	box-shadow: 1px 1px 15px #222222;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 50%;
+	-o-border-radius: 6px;
+	min-height:400px;
+	width:90%;
+	vertical-align: middle;
+	display:table;
+	background-color:#FFF;
+	filter:alpha(opacity=5);
+	opacity: 0.80;
+	-moz-opacity:0.05;
+}
+
+#gd_cadre2 #cartopresent table {
+	width:100%;
+	display:table-cell;
+	vertical-align:middle;
+	
+}
+.contentTitle h2 {
+	font-size: 12px;
+	color: #993300;
+	text-align: center;
+}
+#zone_lg{
+	float:left;
+	margin-top:4px;
+	margin-left:15px;
+	font-size: 13px;
+}
+#zoneUser{
+	float:right;
+}
+#zone_lg a{
+	font-weight:bold;
+	color: #FF0000;
+}

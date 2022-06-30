@@ -1,0 +1,8 @@
+{ "slides.vscodeSettings": {
+    "workbench.colorTheme": "Frantic Light (rainglow)",
+
+    "editor.fontFamily": "Lato",
+    "terminal.integrated.fontFamily": "Lato",
+
+    "editor.fontSize": 36
+  }}
