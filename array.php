@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Arrays</title>
+    <title>Arrays Revised</title>
 </head>
 
 <body>
@@ -37,22 +37,13 @@
     foreach ($info as $key) {
         echo " Word $key <br>";
     }
-    echo "<br>";
-    $array = [10];
-    $array[1] = [10, 20, 50];
-    $array[] = "Two";
-    $array[] = 3.0002;
-    $array[] = 3.0004;
-    $array[1] = 'New entry';
-    var_dump($array);
-    echo "<br>";
-
+ 
     echo "<h3>Associative Array</h3>";
     $user = [
         "name" => "Brian",
         "age" => "27",
         "sex" => "male",
-        "email" => "briantbrian@gmail.com",
+        "email" => "brian.com",
         "address" => "molyko-buea",
     ];
 
@@ -60,7 +51,7 @@
         "name" => "Mark",
         "age" => "24",
         "sex" => "male",
-        "email" => "mark@gmail.com",
+        "email" => "markoia@gmail.com",
         "address" => "small_soppo-buea",
     ];
 
