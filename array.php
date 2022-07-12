@@ -11,9 +11,7 @@
 </head>
 
 <body>
-    <h1>Introduction to arrays and the added entities
-        
-    </h1>
+    <h1>Introduction to conflicts before arrays</h1>
     <?php
     $names = ['Brian', 'Pryde', 'Telly'];
     var_dump($names);
